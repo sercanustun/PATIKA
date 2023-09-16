@@ -1,3 +1,5 @@
+package Weak1.CinZodyagiHesaplama.src;
+
 import java.util.Scanner;
 
 public class Main {
@@ -9,9 +11,9 @@ public class Main {
         String zodiacSign = null;
 
 
-        switch(remainderAfterBirthYearDividedBy12) {
+        switch (remainderAfterBirthYearDividedBy12) {
             case 0:
-               zodiacSign = "Maymun";
+                zodiacSign = "Maymun";
                 break;
             case 1:
                 zodiacSign = "Horoz";
@@ -46,7 +48,7 @@ public class Main {
             case 11:
                 zodiacSign = "Koyun";
                 break;
-                
+
         }
 
         System.out.println("Zodyak burcunuz = " + zodiacSign);
